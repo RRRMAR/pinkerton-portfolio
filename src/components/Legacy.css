@@ -1,0 +1,36 @@
+.legacy-text {
+    max-width: 800px;
+    margin: 0 auto 4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.legacy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.legacy-item {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(to bottom, var(--surface-color), transparent);
+}
+
+.legacy-icon {
+    color: var(--accent-gold);
+    margin-bottom: 1.5rem;
+}
+
+.legacy-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.legacy-item p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}

@@ -1,0 +1,67 @@
+.agency-intro {
+    max-width: 800px;
+    margin: 0 auto 4rem;
+    text-align: center;
+}
+
+.lead-text {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.lead-text strong {
+    color: var(--text-primary);
+    font-family: var(--font-serif);
+}
+
+.agency-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.feature-icon {
+    display: inline-flex;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    align-self: flex-start;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feature-icon.gold {
+    color: var(--accent-gold);
+    background-color: rgba(206, 157, 77, 0.1);
+    border-color: rgba(206, 157, 77, 0.3);
+    animation: pulse 3s infinite;
+}
+
+.feature-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.feature-card p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.standout {
+    border-color: rgba(206, 157, 77, 0.3);
+    background: linear-gradient(135deg, var(--surface-color) 0%, #1c1a17 100%);
+}
+
+.standout h3 {
+    color: var(--accent-gold);
+}
